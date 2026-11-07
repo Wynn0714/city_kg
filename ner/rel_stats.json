@@ -1,0 +1,19 @@
+{
+  "rel_train": 48385,
+  "rel_dev": 10403,
+  "rel_test": 10471,
+  "relation_counts": {
+    "located_in": 6814,
+    "built_in": 18871,
+    "managed_by": 8595,
+    "no_relation": 34514,
+    "related_person": 465
+  },
+  "relations": [
+    "located_in",
+    "built_in",
+    "related_person",
+    "managed_by",
+    "no_relation"
+  ]
+}

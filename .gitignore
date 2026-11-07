@@ -1,0 +1,22 @@
+# 数据与运行产物（由脚本生成，不入库）
+data/raw/
+cleaned/
+graph_export/
+*.bio
+*.jsonl
+*.pt
+*.log
+app/llm_cache.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

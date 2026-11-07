@@ -1,0 +1,39 @@
+{
+  "model": "BERT-RE",
+  "pretrained": "bert-base-chinese",
+  "per_relation": {
+    "no_relation": {
+      "precision": 0.8552238805970149,
+      "recall": 0.9994186046511628,
+      "f1": 0.9217158176943699
+    },
+    "located_in": {
+      "precision": 0.9708454810495627,
+      "recall": 0.9736842105263158,
+      "f1": 0.9722627737226277
+    },
+    "built_in": {
+      "precision": 0.9973250111457869,
+      "recall": 0.7751212751212752,
+      "f1": 0.8722947943068824
+    },
+    "related_person": {
+      "precision": 0.4956521739130435,
+      "recall": 0.76,
+      "f1": 0.6
+    },
+    "managed_by": {
+      "precision": 0.9772296015180265,
+      "recall": 0.7779456193353474,
+      "f1": 0.8662741799831791
+    }
+  },
+  "macro_f1": 0.8465095131414119,
+  "hyperparams": {
+    "model": "bert-base-chinese",
+    "epochs": 8,
+    "batch": 16,
+    "lr": 2e-05,
+    "sample_neg": 1.0
+  }
+}

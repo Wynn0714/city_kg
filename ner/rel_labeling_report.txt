@@ -1,0 +1,12 @@
+=== 关系抽取远程监督标注统计 ===
+train/dev/test 实例数 = 48385 / 10403 / 10471
+关系类型分布：
+  no_relation    34514
+  built_in       18871
+  managed_by     8595
+  located_in     6814
+  related_person 465
+
+说明：located_in 由 city/district 字段对齐，高精度；
+      built_in/related_person/managed_by 由正则/词典抽取，含噪声；
+      no_relation 为负例（跨文档采样）。建议人工抽检 PER/ORG 相关三元组。

@@ -1,0 +1,28 @@
+{
+  "train": 10474,
+  "dev": 2244,
+  "test": 2246,
+  "total_samples": 14964,
+  "dropped_no_text": 596,
+  "entity_counts": {
+    "SCENIC": 22002,
+    "LOC": 13582,
+    "ORG": 15532,
+    "TIME": 32421,
+    "PER": 2103
+  },
+  "docs_with_entity": {
+    "SCENIC": 11403,
+    "ORG": 7295,
+    "LOC": 7122,
+    "TIME": 10304,
+    "PER": 1164
+  },
+  "labels": [
+    "SCENIC",
+    "LOC",
+    "TIME",
+    "PER",
+    "ORG"
+  ]
+}

@@ -1,0 +1,10 @@
+# Web 应用（实验四）
+flask>=2.3
+py2neo>=2021.2
+
+# 实体抽取 / 关系抽取（实验二、三）
+torch>=2.0
+transformers>=4.30
+pytorch-crf>=0.7.2
+seqeval>=1.2.2
+scikit-learn>=1.3
